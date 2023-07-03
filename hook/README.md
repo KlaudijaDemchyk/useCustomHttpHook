@@ -6,15 +6,16 @@
 
 ### 'bash'
 
-### 'Copy code'
+ Copy code
 
 ### 'npm install use-custom-http-hook' 
 
 ## Використання
 Імпортуйте useCustomHttpHook в компонент React та використовуйте його для відправки HTTP запитів.
 
-### javascript
-### Copy code
+ javascript
+# Copy code
+
 ### import React from 'react';
 ### import useCustomHttpHook from 'use-custom-http-hook';
 
@@ -22,18 +23,15 @@
  ### const { data, isLoading, error } = useCustomHttpHook('https://api.example.com', {});
 
  ### if (isLoading) {
- ###   return <div>Завантаження...</div>;
- ### }
+ ###   return <div>Завантаження...</div>; }
 
  ### if (error) {
-  ###  return <div>Помилка: {error.message}</div>;
- ### }
+  ###  return <div>Помилка: {error.message}</div>;}
 
- ### return <div>{JSON.stringify(data)}</div>;
-### }
+ ### return <div>{JSON.stringify(data)}</div>;}
 
 ### export default App;
- ### API
+## API
 ### useCustomHttpHook приймає наступні параметри:
 
 #### url (string): URL, куди відправляється запит.
