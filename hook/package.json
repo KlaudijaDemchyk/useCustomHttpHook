@@ -1,6 +1,6 @@
 {
   "name": "use-custom-http-hook",
-  "version": "0.1.2",
+  "version": "0.1.4",
   "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
@@ -39,5 +39,17 @@
   "main": "useCustomHttpHook.js",
   "devDependencies": {},
   "author": "Claudia Chyrenko",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/KlaudijaDemchyk/useCustomHttpHook.git"
+  },
+  "keywords": [
+    "hook",
+    "API"
+  ],
+  "bugs": {
+    "url": "https://github.com/KlaudijaDemchyk/useCustomHttpHook/issues"
+  },
+  "homepage": "https://github.com/KlaudijaDemchyk/useCustomHttpHook#readme"
 }
